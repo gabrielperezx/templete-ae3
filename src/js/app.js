@@ -65,24 +65,16 @@
                 let datesHTML = '';
 
                 for (let i = firstDayIndex; i > 0; i--) {
-                    const prevDate = new Date(
-                        currentYear,
-                        currentMonth,
-                        -i + 1,
-                    );
+                    const prevDate = new Date(currentYear, currentMonth, -i + 1);
                     datesHTML += `<div class="calendar__date inactive">${prevDate.getDate()}</div>`;
                 }
 
                 for (let i = 1; i <= totalDays; i++) {
                     const date = new Date(currentYear, currentMonth, i);
                     const formattedDate = date.toISOString().split('T')[0];
-                    const hasEvent = events.some(
-                        (event) => event.date === formattedDate,
-                    );
+                    const hasEvent = events.some((event) => event.date === formattedDate);
                     const activeClass =
-                        date.toDateString() === new Date().toDateString()
-                            ? 'active'
-                            : '';
+                        date.toDateString() === new Date().toDateString() ? 'active' : '';
                     const eventClass = hasEvent ? 'event' : '';
                     datesHTML += `<div class="calendar__date ${activeClass} ${eventClass}" data-date="${formattedDate}">${i}</div>`;
                 }
@@ -98,12 +90,10 @@
             };
 
             const attachDateClickListeners = () => {
-                const dateElements =
-                    document.querySelectorAll('.calendar__date');
+                const dateElements = document.querySelectorAll('.calendar__date');
                 dateElements.forEach((dateElement) => {
                     dateElement.addEventListener('click', () => {
-                        const selectedDate =
-                            dateElement.getAttribute('data-date');
+                        const selectedDate = dateElement.getAttribute('data-date');
                         showEvents(selectedDate);
                     });
                 });
@@ -118,9 +108,7 @@
             };
 
             const showEvents = (date) => {
-                const filteredEvents = events.filter(
-                    (event) => event.date === date,
-                );
+                const filteredEvents = events.filter((event) => event.date === date);
                 eventsContainer.innerHTML = '';
 
                 if (filteredEvents.length === 0) {
@@ -130,9 +118,7 @@
                     filteredEvents.forEach((event) => {
                         eventsContainer.innerHTML += `
                         <div class="calendar__event">
-                            <p class="calendar__event-date">${formatDate(
-                                event.date,
-                            )}</p>
+                            <p class="calendar__event-date">${formatDate(event.date)}</p>
                             <p class="calendar__event-title">${event.title}</p>
                             <p class="calendar__event-description">${
                                 event.description
@@ -249,12 +235,10 @@
         };
 
         document.querySelectorAll('.carousel__items').forEach((carousel) => {
-            const prevButton = carousel.parentElement.querySelector(
-                '.carousel__anterior',
-            );
-            const nextButton = carousel.parentElement.querySelector(
-                '.carousel__siguiente',
-            );
+            const prevButton =
+                carousel.parentElement.querySelector('.carousel__anterior');
+            const nextButton =
+                carousel.parentElement.querySelector('.carousel__siguiente');
 
             new Glider(carousel, {
                 ...gliderConfig,
@@ -264,63 +248,6 @@
                 },
             });
         });
-    };
-
-    const CarouselSVG = () => {
-        const checkCarouselSVG = document.querySelector('.carousel-svg');
-        if (document.body.contains(checkCarouselSVG)) {
-            const images = document.querySelectorAll(
-                '.carousel-svg__images img',
-            );
-            const dotsContainer = document.querySelector('.carousel-svg__dots');
-            let currentIndex = 0;
-            let autoSlideInterval;
-
-            // Crear puntos de navegación dinámicamente
-            dotsContainer.innerHTML = '';
-            images.forEach((_, index) => {
-                const dot = document.createElement('button');
-                if (index === 0) dot.classList.add('active');
-                dotsContainer.appendChild(dot);
-            });
-
-            const dots = dotsContainer.querySelectorAll('button');
-
-            const updateCarousel = () => {
-                images.forEach((img, index) => {
-                    img.classList.toggle('active', index === currentIndex);
-                });
-                dots.forEach((dot) => dot.classList.remove('active'));
-                dots[currentIndex].classList.add('active');
-            };
-
-            const startAutoSlide = () => {
-                autoSlideInterval = setInterval(() => {
-                    currentIndex = (currentIndex + 1) % images.length;
-                    updateCarousel();
-                }, 3000); // Cambia cada 3 segundos
-            };
-
-            const stopAutoSlide = () => {
-                clearInterval(autoSlideInterval);
-            };
-
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', () => {
-                    currentIndex = index;
-                    updateCarousel();
-                    stopAutoSlide();
-                });
-            });
-
-            images.forEach((img) => {
-                img.addEventListener('click', () => {
-                    stopAutoSlide();
-                });
-            });
-
-            startAutoSlide();
-        }
     };
 
     const PopUpInfo = () => {
@@ -376,7 +303,6 @@
         Calendario();
         LightBox();
         BotonScrollTop();
-        CarouselSVG();
         MenuEstatico();
         PopUpInfo();
     });
