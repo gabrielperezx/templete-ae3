@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.css"
+        />
+        <link href="./src/css/estilos.min.css" rel="stylesheet" />
+
+        <title>Inicio</title>
+    </head>
+    <body id="VentanaInicio">
+        <div
+            id="mainNavbar"
+            class="container py-3 fixed-top top-0 visually-hidden"
+        >
+            <nav
+                class="navbar navbar-expand-lg bg-white rounded-4 navbar-link-primary"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand me-0" href="#">
+                        <img
+                            src="./src/assets/Logocolegio.png"
+                            alt="Logo Colegio"
+                            width="40"
+                            height="40"
+                            class="me-2"
+                        />
+                        <span
+                            class="comic-neue-bold text-primary text-wrap d-lg-none"
+                        >
+                            U.E. Colegio Anibal Rodríguez
+                        </span>
+                    </a>
+                    <button
+                        class="navbar-toggler mx-auto mx-md-0"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Colegio
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./conocenos.html"
+                                        >
+                                            Conócenos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Misión y Visión
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Reseña Histórica
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Organigrama
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Normativa Interna
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Servicio Educativo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Plataforma Educativa SAE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Institución
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Personal
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Representante
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Estudiante
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Publicaciones
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Cartelera informativa
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Horarios escolares
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./utiles-escolares.html"
+                                        >
+                                            Útiles escolares
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="./src/pages/contacto.html"
+                                    >Contáctanos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="bg-primary mb-5">
+            <div
+                class="bg-parallax-before"
+                style="--bg-image: url('./../assets/Patron.png')"
+            >
+                <div class="container position-relative">
+                    <div class="py-3 py-lg-0">
+                        <nav class="navbar navbar-expand-lg navbar-white-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand m-0 d-lg-none" href="#">
+                                    <img
+                                        src="./src/assets/Logocolegio.png"
+                                        alt="Logo Colegio"
+                                        width="40"
+                                        height="40"
+                                        class="me-2"
+                                    />
+                                    <span
+                                        class="comic-neue-bold text-primary text-wrap d-lg-none"
+                                    >
+                                        U.E. Colegio Anibal Rodríguez
+                                    </span>
+                                </a>
+
+                                <button
+                                    class="navbar-toggler mx-auto mx-md-0"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown"
+                                    aria-controls="navbarNavDropdown"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div
+                                    class="collapse navbar-collapse justify-content-end"
+                                    id="navbarNavDropdown"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link dropdown-toggle"
+                                                href="#"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                Colegio
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Conócenos
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Misión y Visión
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Reseña Histórica
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Organigrama
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Normativa Interna
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Servicio Educativo
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link dropdown-toggle"
+                                                href="#"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                Plataforma Educativa SAE
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Institución
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Personal
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Representante
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Estudiante
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link dropdown-toggle"
+                                                href="#"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                Publicaciones
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Cartelera informativa
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                    >
+                                                        Horarios escolares
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="./src/pages/utiles-escolares.html"
+                                                    >
+                                                        Útiles escolares
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link"
+                                                href="./src/pages/contacto.html"
+                                                >Contáctanos</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-12 col-lg-5 text-white ps-lg-5">
+                            <div class="d-none d-lg-block px-7">
+                                <img
+                                    src="./src/assets/Logocolegio.png"
+                                    alt="Logo Colegio"
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <h1
+                                class="d-none d-lg-block comic-neue-bold text-center display-6"
+                            >
+                                U.E. Colegio Anibal Rodríguez
+                            </h1>
+                            <p class="fw-semibold mt-3 mt-lg-0">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Tenetur vero ullam nam
+                                expedita voluptas iure enim distinctio,
+                                officiis, aliquam facilis consectetur nobis
+                                sint! Tenetur culpa iure totam nihil enim
+                                distinctio!
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <a
+                                    class="btn btn-secondary text-white fw-bold rounded-pill mb-3 mb-lg-0"
+                                    style="--bs-btn-padding-x: 3rem"
+                                    href="#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Solicita Cupo</a
+                                >
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <div class="carousel-svg">
+                                <div class="carousel-svg__images">
+                                    <img
+                                        src="./src/assets/Imagen1.jpg"
+                                        alt="Image 1"
+                                        class="active"
+                                    />
+                                    <img
+                                        src="./src/assets/Imagen2.jpg"
+                                        alt="Image 2"
+                                    />
+                                    <img
+                                        src="./src/assets/Imagen1.jpg"
+                                        alt="Image 3"
+                                    />
+                                </div>
+                                <div class="carousel-svg__dots">
+                                    <button class="active"></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 508 100"
+                    xml:space="preserve"
+                >
+                    <path
+                        fill="#fff"
+                        d="m-.859 77.346 16.991-1.876c16.99-2.018 50.971-5.558 84.953-18.902 33.981-13.202 67.962-35.856 101.943-47.184S270.99-1.943 304.972 3.72s67.963 16.991 101.943 22.655c33.981 5.663 67.963 5.663 84.954 5.663h16.99V100H-.859z"
+                    />
+                </svg>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 px-4 px-lg-5 mb-3 mb-lg-0">
+                    <img
+                        class="img-fluid img-thumbnail"
+                        src="./src/assets/Imagen1.jpg"
+                        alt="Carta de imagenes"
+                    />
+                </div>
+                <div class="col-12 col-lg-6 d-flex align-items-center">
+                    <div>
+                        <div class="mb-3">
+                            <h2
+                                class="comic-neue-bold text-primary display-6 m-0 text-center text-lg-start"
+                            >
+                                Conoce Nuestro Colegio
+                            </h2>
+                            <hr
+                                class="m-0 border border-primary border-3 opacity-100 w-15 rounded-pill mx-auto mx-lg-0"
+                            />
+                        </div>
+
+                        <p class="mx-3 mx-lg-0 fs-7">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatum, explicabo! Magni quos, aut esse
+                            obcaecati eligendi quis sint natus modi pariatur eos
+                            doloremque maiores dicta eius voluptatibus,
+                            similique, labore harum?
+                        </p>
+                        <div
+                            class="d-flex justify-content-center justify-content-lg-start"
+                        >
+                            <a
+                                class="btn btn-primary px-4 text-white fw-bold rounded-pill"
+                                href="./src/pages/conocenos.html"
+                                >Leer más</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="mb-3">
+                <h2
+                    class="text-center display-6 comic-neue-bold text-primary m-0"
+                >
+                    Noticias
+                </h2>
+                <hr
+                    class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
+                />
+            </div>
+            <div class="carousel mb-3">
+                <div class="carousel__contenedor">
+                    <div class="carousel__items">
+                        <div>
+                            <div
+                                class="card carousel__sombra rounded-4 overflow-hidden"
+                            >
+                                <img
+                                    src="./src/assets/Imagen1.jpg"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title text-primary fw-semibold"
+                                    >
+                                        Titulo 1
+                                    </h5>
+                                    <p class="card-text fs-8">
+                                        Some quick example text to build on the
+                                        card title and make up the bulk of the
+                                        card's content.
+                                    </p>
+                                    <a
+                                        href="./src/pages/articulos-individual.html"
+                                        class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                        >Leer más</a
+                                    >
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div
+                                        class="d-flex justify-content-between"
+                                        style="font-size: 0.75rem"
+                                    >
+                                        <span>Admin</span>
+                                        <span>Julio 28, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="card carousel__sombra rounded-4 overflow-hidden"
+                            >
+                                <img
+                                    src="./src/assets/Imagen1.jpg"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title text-primary fw-semibold"
+                                    >
+                                        Titulo 2
+                                    </h5>
+                                    <p class="card-text fs-8">
+                                        Some quick example text to build on the
+                                        card title and make up the bulk of the
+                                        card's content.
+                                    </p>
+                                    <a
+                                        href="./src/pages/articulos-individual.html"
+                                        class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                        >Leer más</a
+                                    >
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div
+                                        class="d-flex justify-content-between"
+                                        style="font-size: 0.75rem"
+                                    >
+                                        <span>Admin</span>
+                                        <span>Julio 28, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="card carousel__sombra rounded-4 overflow-hidden"
+                            >
+                                <img
+                                    src="./src/assets/Imagen1.jpg"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title text-primary fw-semibold"
+                                    >
+                                        Titulo 3
+                                    </h5>
+                                    <p class="card-text fs-8">
+                                        Some quick example text to build on the
+                                        card title and make up the bulk of the
+                                        card's content.
+                                    </p>
+                                    <a
+                                        href="./src/pages/articulos-individual.html"
+                                        class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                        >Leer más</a
+                                    >
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div
+                                        class="d-flex justify-content-between"
+                                        style="font-size: 0.75rem"
+                                    >
+                                        <span>Admin</span>
+                                        <span>Julio 28, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="card carousel__sombra rounded-4 overflow-hidden"
+                            >
+                                <img
+                                    src="./src/assets/Imagen1.jpg"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title text-primary fw-semibold"
+                                    >
+                                        Titulo 4
+                                    </h5>
+                                    <p class="card-text fs-8">
+                                        Some quick example text to build on the
+                                        card title and make up the bulk of the
+                                        card's content.
+                                    </p>
+                                    <a
+                                        href="./src/pages/articulos-individual.html"
+                                        class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                        >Leer más</a
+                                    >
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div
+                                        class="d-flex justify-content-between"
+                                        style="font-size: 0.75rem"
+                                    >
+                                        <span>Admin</span>
+                                        <span>Julio 28, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="card carousel__sombra rounded-4 overflow-hidden"
+                            >
+                                <img
+                                    src="./src/assets/Imagen1.jpg"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="card-title text-primary fw-semibold"
+                                    >
+                                        Titulo 5
+                                    </h5>
+                                    <p class="card-text fs-8">
+                                        Some quick example text to build on the
+                                        card title and make up the bulk of the
+                                        card's content.
+                                    </p>
+                                    <a
+                                        href="./src/pages/articulos-individual.html"
+                                        class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                        >Leer más</a
+                                    >
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <div
+                                        class="d-flex justify-content-between"
+                                        style="font-size: 0.75rem"
+                                    >
+                                        <span>Admin</span>
+                                        <span>Julio 28, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a
+                    class="btn btn-primary px-5 text-white fw-bold rounded-pill"
+                    href="./src/pages/noticias.html"
+                    >Ver más</a
+                >
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="mb-3">
+                <h2
+                    class="text-center display-6 comic-neue-bold text-primary m-0"
+                >
+                    Información de Intéres
+                </h2>
+                <hr
+                    class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
+                />
+            </div>
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <div class="carousel__items">
+                        <div>
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center rounded-4 p-5 carousel__sombra-hover position-relative"
+                            >
+                                <i
+                                    class="fa-solid fa-church display-6 text-primary mb-3"
+                                ></i>
+                                <h5 class="text-primary fw-semibold mb-3">
+                                    Pastoral Educativa
+                                </h5>
+
+                                <button
+                                    class="btn btn-primary text-white fw-bold rounded-pill w-100 stretched-link"
+                                    id="btnPastoral"
+                                >
+                                    Ir
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center rounded-4 p-5 carousel__sombra-hover position-relative"
+                            >
+                                <i
+                                    class="fa-solid fa-building-columns display-6 text-primary mb-3"
+                                ></i>
+                                <h5 class="text-primary fw-semibold mb-3">
+                                    Bancos
+                                </h5>
+                                <button
+                                    class="btn btn-primary text-white fw-bold rounded-pill w-100 stretched-link"
+                                    id="btnBancos"
+                                >
+                                    Ir
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center rounded-4 p-5 carousel__sombra-hover position-relative"
+                            >
+                                <i
+                                    class="fa-solid fa-users display-6 text-primary mb-3"
+                                ></i>
+                                <h5 class="text-primary fw-semibold mb-3">
+                                    Clubes escolares
+                                </h5>
+                                <button
+                                    class="btn btn-primary text-white fw-bold rounded-pill w-100 stretched-link"
+                                    id="btnClubes"
+                                >
+                                    Ir
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="d-flex flex-column justify-content-center align-items-center rounded-4 p-5 carousel__sombra-hover position-relative"
+                            >
+                                <i
+                                    class="fa-solid fa-school display-6 text-primary mb-3"
+                                ></i>
+                                <h5 class="text-primary fw-semibold mb-3">
+                                    Colegio
+                                </h5>
+                                <button
+                                    class="btn btn-primary text-white fw-bold rounded-pill w-100 stretched-link"
+                                    id="btnColegio"
+                                >
+                                    Ir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="mb-4">
+                <h2
+                    class="text-center display-6 comic-neue-bold text-primary m-0"
+                >
+                    Eventos
+                </h2>
+                <hr
+                    class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
+                />
+            </div>
+            <div class="row px-lg-6 mb-4">
+                <div class="col-12 col-lg-5 mb-4 mb-lg-0 d-none d-md-block">
+                    <div class="calendar">
+                        <div class="calendar__nav">
+                            <button id="prevBtn">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="calendar__titulo" id="monthYear"></div>
+                            <button id="nextBtn">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="calendar__days">
+                            <div class="calendar__day">Dom</div>
+                            <div class="calendar__day">Lun</div>
+                            <div class="calendar__day">Mar</div>
+                            <div class="calendar__day">Mie</div>
+                            <div class="calendar__day">Jue</div>
+                            <div class="calendar__day">Vie</div>
+                            <div class="calendar__day">Sab</div>
+                        </div>
+                        <div class="calendar__dates" id="dates"></div>
+                    </div>
+                    <hr class="calendar__separator" />
+                    <div class="calendar__events" id="eventsContainer"></div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div class="row g-2 px-5 px-lg-0">
+                        <div class="card rounded-4 overflow-hidden p-0">
+                            <div class="row g-0">
+                                <div class="col-12 col-lg-5">
+                                    <img
+                                        src="./src/assets/Imagen1.jpg"
+                                        class="img-fluid-container"
+                                        alt="..."
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-7">
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title text-primary fw-semibold"
+                                        >
+                                            Titulo 1
+                                        </h5>
+                                        <p class="card-text fs-8">
+                                            This is a wider card with supporting
+                                            text below as a natural lead-in to
+                                            additional content. This content is
+                                            a little bit longer.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                            style="font-size: 0.75rem"
+                                        >
+                                            <div
+                                                class="d-flex gap-3 align-items-center"
+                                            >
+                                                <span>
+                                                    <i
+                                                        class="fa-regular fa-clock"
+                                                    ></i>
+                                                    8:00 A.M.
+                                                </span>
+                                                <span>
+                                                    <i
+                                                        class="fa-solid fa-calendar-days"
+                                                    ></i>
+                                                    03/12/2015
+                                                </span>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="btn btn-primary btn-sm fs-8 text-white rounded-pill"
+                                                >Leer más</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-4 overflow-hidden p-0">
+                            <div class="row g-0">
+                                <div class="col-12 col-lg-5">
+                                    <img
+                                        src="./src/assets/Imagen1.jpg"
+                                        class="img-fluid-container"
+                                        alt="..."
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-7">
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title text-primary fw-semibold"
+                                        >
+                                            Titulo 1
+                                        </h5>
+                                        <p class="card-text fs-8">
+                                            This is a wider card with supporting
+                                            text below as a natural lead-in to
+                                            additional content. This content is
+                                            a little bit longer.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                            style="font-size: 0.75rem"
+                                        >
+                                            <div
+                                                class="d-flex gap-3 align-items-center"
+                                            >
+                                                <span>
+                                                    <i
+                                                        class="fa-regular fa-clock"
+                                                    ></i>
+                                                    8:00 A.M.
+                                                </span>
+                                                <span>
+                                                    <i
+                                                        class="fa-solid fa-calendar-days"
+                                                    ></i>
+                                                    03/12/2015
+                                                </span>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="btn btn-primary btn-sm fs-8 text-white rounded-pill"
+                                                >Leer más</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="card rounded-4 overflow-hidden p-0 d-none d-lg-flex"
+                        >
+                            <div class="row g-0">
+                                <div class="col-12 col-lg-5">
+                                    <img
+                                        src="./src/assets/Imagen1.jpg"
+                                        class="img-fluid-container"
+                                        alt="..."
+                                    />
+                                </div>
+                                <div class="col-12 col-lg-7">
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title text-primary fw-semibold"
+                                        >
+                                            Titulo 1
+                                        </h5>
+                                        <p class="card-text fs-8">
+                                            This is a wider card with supporting
+                                            text below as a natural lead-in to
+                                            additional content. This content is
+                                            a little bit longer.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <div
+                                            class="d-flex justify-content-between"
+                                            style="font-size: 0.75rem"
+                                        >
+                                            <div
+                                                class="d-flex gap-3 align-items-center"
+                                            >
+                                                <span>
+                                                    <i
+                                                        class="fa-regular fa-clock"
+                                                    ></i>
+                                                    8:00 A.M.
+                                                </span>
+                                                <span>
+                                                    <i
+                                                        class="fa-solid fa-calendar-days"
+                                                    ></i>
+                                                    03/12/2015
+                                                </span>
+                                            </div>
+                                            <a
+                                                href="#"
+                                                class="btn btn-primary btn-sm fs-8 text-white rounded-pill"
+                                                >Leer más</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a
+                    class="btn btn-primary px-5 text-white fw-bold rounded-pill"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Ver más</a
+                >
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="mb-3">
+                <h2
+                    class="text-center display-6 comic-neue-bold text-primary m-0"
+                >
+                    Galería
+                </h2>
+                <hr
+                    class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
+                />
+            </div>
+            <div class="carousel mb-3">
+                <div class="carousel__contenedor">
+                    <div class="carousel__items">
+                        <div>
+                            <div
+                                class="carousel__sombra-hover rounded-4 bg-image overflow-hidden"
+                                style="
+                                    --bg-image: url('./../assets/Imagen1.jpg');
+                                    --bg-image-v: url('./../assets/Imagen1.jpg');
+                                "
+                            >
+                                <div
+                                    class="py-6 d-flex flex-column justify-content-center align-items-center bg-primary bg-opacity"
+                                >
+                                    <h5 class="m-0 text-white">
+                                        Graduandos 2023
+                                    </h5>
+                                    <hr
+                                        class="border border-white border-2 opacity-100 w-15 rounded-pill m-0"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="carousel__sombra-hover rounded-4 bg-image overflow-hidden"
+                                style="
+                                    --bg-image: url('./../assets/Imagen1.jpg');
+                                    --bg-image-v: url('./../assets/Imagen1.jpg');
+                                "
+                            >
+                                <div
+                                    class="py-6 d-flex flex-column justify-content-center align-items-center bg-primary bg-opacity"
+                                >
+                                    <h5 class="m-0 text-white">
+                                        Graduandos 2023
+                                    </h5>
+                                    <hr
+                                        class="border border-white border-2 opacity-100 w-15 rounded-pill m-0"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="carousel__sombra-hover rounded-4 bg-image overflow-hidden"
+                                style="
+                                    --bg-image: url('./../assets/Imagen1.jpg');
+                                    --bg-image-v: url('./../assets/Imagen1.jpg');
+                                "
+                            >
+                                <div
+                                    class="py-6 d-flex flex-column justify-content-center align-items-center bg-primary bg-opacity"
+                                >
+                                    <h5 class="m-0 text-white">
+                                        Graduandos 2023
+                                    </h5>
+                                    <hr
+                                        class="border border-white border-2 opacity-100 w-15 rounded-pill m-0"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="carousel__sombra-hover rounded-4 bg-image overflow-hidden"
+                                style="
+                                    --bg-image: url('./../assets/Imagen1.jpg');
+                                    --bg-image-v: url('./../assets/Imagen1.jpg');
+                                "
+                            >
+                                <div
+                                    class="py-6 d-flex flex-column justify-content-center align-items-center bg-primary bg-opacity"
+                                >
+                                    <h5 class="m-0 text-white">
+                                        Graduandos 2023
+                                    </h5>
+                                    <hr
+                                        class="border border-white border-2 opacity-100 w-15 rounded-pill m-0"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="carousel__sombra-hover rounded-4 bg-image overflow-hidden"
+                                style="
+                                    --bg-image: url('./../assets/Imagen1.jpg');
+                                    --bg-image-v: url('./../assets/Imagen1.jpg');
+                                "
+                            >
+                                <div
+                                    class="py-6 d-flex flex-column justify-content-center align-items-center bg-primary bg-opacity"
+                                >
+                                    <h5 class="m-0 text-white">
+                                        Graduandos 2023
+                                    </h5>
+                                    <hr
+                                        class="border border-white border-2 opacity-100 w-15 rounded-pill m-0"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a
+                    class="btn btn-primary px-5 text-white fw-bold rounded-pill"
+                    href="./src/pages/galeria.html"
+                    >Ver más</a
+                >
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="mb-3">
+                <h2
+                    class="text-center display-6 comic-neue-bold text-primary m-0"
+                >
+                    Conoce a Nuestro Equipo
+                </h2>
+                <hr
+                    class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
+                />
+            </div>
+            <div class="carousel mb-3">
+                <div class="carousel__contenedor">
+                    <div class="carousel__items">
+                        <div>
+                            <a
+                                class="carousel__circle"
+                                href="./src/pages/personal-individual.html"
+                            >
+                                <div class="position-relative">
+                                    <img
+                                        class="carousel__img rounded-pill"
+                                        src="./src/assets/team1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="carousel__overlay"></div>
+                                </div>
+                            </a>
+
+                            <h5
+                                class="text-primary comic-neue-bold m-0 text-center"
+                            >
+                                Debora Mayurel
+                            </h5>
+                            <h6 class="text-body-tertiary m-0 text-center">
+                                Docente
+                            </h6>
+                        </div>
+                        <div>
+                            <a
+                                class="carousel__circle"
+                                href="./src/pages/personal-individual.html"
+                            >
+                                <div class="position-relative">
+                                    <img
+                                        class="carousel__img rounded-pill"
+                                        src="./src/assets/team1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="carousel__overlay"></div>
+                                </div>
+                            </a>
+
+                            <h5
+                                class="text-primary comic-neue-bold m-0 text-center"
+                            >
+                                Debora Mayurel
+                            </h5>
+                            <h6 class="text-body-tertiary m-0 text-center">
+                                Docente
+                            </h6>
+                        </div>
+                        <div>
+                            <a
+                                class="carousel__circle"
+                                href="./src/pages/personal-individual.html"
+                            >
+                                <div class="position-relative">
+                                    <img
+                                        class="carousel__img rounded-pill"
+                                        src="./src/assets/team1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="carousel__overlay"></div>
+                                </div>
+                            </a>
+
+                            <h5
+                                class="text-primary comic-neue-bold m-0 text-center"
+                            >
+                                Debora Mayurel
+                            </h5>
+                            <h6 class="text-body-tertiary m-0 text-center">
+                                Docente
+                            </h6>
+                        </div>
+                        <div>
+                            <a
+                                class="carousel__circle"
+                                href="./src/pages/personal-individual.html"
+                            >
+                                <div class="position-relative">
+                                    <img
+                                        class="carousel__img rounded-pill"
+                                        src="./src/assets/team1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="carousel__overlay"></div>
+                                </div>
+                            </a>
+
+                            <h5
+                                class="text-primary comic-neue-bold m-0 text-center"
+                            >
+                                Debora Mayurel
+                            </h5>
+                            <h6 class="text-body-tertiary m-0 text-center">
+                                Docente
+                            </h6>
+                        </div>
+                        <div>
+                            <a
+                                class="carousel__circle"
+                                href="./src/pages/personal-individual.html"
+                            >
+                                <div class="position-relative">
+                                    <img
+                                        class="carousel__img rounded-pill"
+                                        src="./src/assets/team1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="carousel__overlay"></div>
+                                </div>
+                            </a>
+
+                            <h5
+                                class="text-primary comic-neue-bold m-0 text-center"
+                            >
+                                Debora Mayurel
+                            </h5>
+                            <h6 class="text-body-tertiary m-0 text-center">
+                                Docente
+                            </h6>
+                        </div>
+                    </div>
+
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a
+                    class="btn btn-primary px-5 text-white fw-bold rounded-pill"
+                    href="./src/pages/personal.html"
+                    >Ver más</a
+                >
+            </div>
+        </div>
+
+        <div class="bg-primary">
+            <div
+                class="bg-parallax-before"
+                style="--bg-image: url('./../assets/Patron.png')"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 900 100"
+                    xml:space="preserve"
+                >
+                    <path
+                        fill="#fff"
+                        d="m-.001 60.001 30 9.998C60 79.999 120 100 180 100s120-20.001 180-23.313c60-3.563 120.001 10.188 180 16.625C599.999 100 660 100 720.001 100h180V0H-.001z"
+                    />
+                </svg>
+                <div class="container py-3 p-xl-6 position-relative">
+                    <div class="bg-white p-4 p-lg-5 rounded-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60717.3267937924!2d-67.1874136783203!3d-17.9865085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e2b0c2e1310c7f%3A0x6c0d337032fbb904!2sColegio%20SkibidiMewing!5e0!3m2!1ses!2sve!4v1735065829510!5m2!1ses!2sve"
+                                    style="border: 0"
+                                    class="img-fluid-container"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+                            <div
+                                class="col-12 col-lg-6 order-1 order-lg-2 mb-3 mb-lg-0"
+                            >
+                                <form action="" method="post" class="row g-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center align-items-lg-start"
+                                    >
+                                        <h2
+                                            class="display-6 comic-neue-bold text-primary m-0"
+                                        >
+                                            Contáctanos
+                                        </h2>
+                                        <hr
+                                            class="border border-primary border-3 opacity-100 w-25 rounded-pill m-0"
+                                        />
+                                    </div>
+                                    <input
+                                        type="text"
+                                        class="form-control bg-body-secondary"
+                                        id="txtNombre"
+                                        required
+                                        placeholder="Nombre y Apellido *"
+                                    />
+                                    <input
+                                        type="email"
+                                        class="form-control bg-body-secondary"
+                                        id="txtCorreo"
+                                        required
+                                        placeholder="Correo *"
+                                    />
+                                    <input
+                                        type="tel"
+                                        class="form-control bg-body-secondary"
+                                        id="txtTelefono*"
+                                        required
+                                        placeholder="Teléfono *"
+                                    />
+                                    <input
+                                        type="text"
+                                        class="form-control bg-body-secondary"
+                                        id="txtAsunto"
+                                        required
+                                        placeholder="Asunto *"
+                                    />
+                                    <textarea
+                                        class="form-control bg-body-secondary mb-3"
+                                        id="txaMensaje"
+                                        rows="5"
+                                        required
+                                        placeholder="Mensaje *"
+                                    ></textarea>
+                                    <p class="fs-9 m-0">
+                                        Debe rellenar los campos del formulario
+                                        y hacer clic en el botón de "Enviar"
+                                    </p>
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary text-white comic-neue-bold"
+                                    >
+                                        Enviar
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container py-3">
+                <div class="row mx-1">
+                    <div class="col-6 col-lg-3">
+                        <div class="row align-items-center g-2">
+                            <div class="col-12 pe-6">
+                                <img
+                                    src="./src/assets/Logocolegio.png"
+                                    alt="Logo Colegio"
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <h5
+                                    class="comic-neue-bold fs-6 text-primary m-0"
+                                >
+                                    U.E. Colegio Anibal Rodríguez
+                                </h5>
+                                <h6 class="comic-neue-bold fs-6 text-primary">
+                                    Barquisimeto - Lara
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 order-3 order-lg-2">
+                        <h5 class="comic-neue-bold text-primary">
+                            Contáctanos
+                        </h5>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-location-dot"></i>
+                            Cota 905, Urb. Obrera Turiamo, Barrio Buenos Aires,
+                            Parroquia Santa Rosalía, Municipio Libertador de
+                            Caracas, Districto Capital
+                        </p>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-phone"></i> +58 412 551 4415
+                        </p>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+                            correo@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-2 order-4 order-lg-3">
+                        <h5 class="comic-neue-bold text-primary">Enlaces</h5>
+                        <ul class="nav flex-column" style="font-size: 0.75rem">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                >
+                                    <i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Colegio</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Publicaciones</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Contáctanos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-2 order-5 order-lg-4">
+                        <h5 class="comic-neue-bold text-primary">
+                            Información de interés
+                        </h5>
+                        <ul class="nav flex-column" style="font-size: 0.75rem">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Pastoral educativa</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                >
+                                    <i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Bancos</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Clubes Escolares</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 order-2 order-lg-5">
+                        <h5 class="comic-neue-bold text-primary">
+                            Conecta con nosotros
+                        </h5>
+                        <div class="social">
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-tertiary">
+                <div class="container py-3">
+                    <p class="mx-5 fs-8 m-0 text-center text-white">
+                        Copyright ©2024 Todos los derechos reservados, diseñado
+                        por
+                        <a
+                            href="https://asistescolar.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="fw-bold link-light"
+                            >AsistEscolar.com</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="position-fixed top-50 z-1">
+            <div class="sidebar sidebar-left">
+                <a
+                    class="sidebar__button link-dark fs-6"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                    class="sidebar__button link-dark fs-6"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                    class="sidebar__button link-dark fs-6"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a
+                    class="sidebar__button link-dark fs-6"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <button class="btnScrollTop" title="Go to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.2/dist/sweetalert2.all.min.js"></script>
+    <script
+        type="text/javascript"
+        src="./src/js/bootstrap.bundle.min.js"
+    ></script>
+    <script type="text/javascript" src="./src/js/app.min.js"></script>
+</html>

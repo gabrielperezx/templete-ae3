@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.css"
+        />
+
+        <link href="./../css/estilos.min.css" rel="stylesheet" />
+        <title>Útiles escolares</title>
+    </head>
+    <body>
+        <div class="container py-3 fixed-top top-0">
+            <nav
+                class="navbar navbar-expand-lg bg-white rounded-4 shadow-sm navbar-link-primary"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand me-0" href="../../index.html">
+                        <img
+                            src="../assets/Logocolegio.png"
+                            alt="Logo Colegio"
+                            width="40"
+                            height="40"
+                            class="me-2"
+                        />
+                        <span
+                            class="comic-neue-bold text-primary text-wrap d-lg-none"
+                        >
+                            U.E. Colegio Anibal Rodríguez
+                        </span>
+                    </a>
+                    <button
+                        class="navbar-toggler mx-auto mx-md-0"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Colegio
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./conocenos.html"
+                                        >
+                                            Conócenos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Misión y Visión
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Reseña Histórica
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Organigrama
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Normativa Interna
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Servicio Educativo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Plataforma Educativa SAE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Institución
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Personal
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Representante
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Estudiante
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Publicaciones
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Cartelera informativa
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Horarios escolares
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="./utiles-escolares.html"
+                                        >
+                                            Útiles escolares
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html"
+                                    >Contáctanos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="bg-parallax">
+            <div class="bg-primary" style="--bs-bg-opacity: 0.5">
+                <div class="container pt-7 pb-5">
+                    <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                    >
+                        <h1 class="text-white comic-neue-bold">
+                            Útiles escolares
+                        </h1>
+                        <hr
+                            class="m-0 border border-white border-3 opacity-100 w-15 rounded-pill mx-auto mx-lg-0"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="px-2 py-4 py-lg-5 px-lg-7">
+                <div
+                    class="accordion accordion-flush"
+                    id="accordionExample"
+                    style="
+                        --bs-accordion-active-bg: #fda632;
+                        --bs-accordion-active-color: #ffffff;
+                        --bs-accordion-btn-bg: #e9ecef;
+                    "
+                >
+                    <div
+                        class="accordion-item bg-body-secondary rounded-4 overflow-hidden mb-2"
+                    >
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button fw-bold"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                            >
+                                Educación Inicial
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <ul class="m-0">
+                                    <li class=""><a href="#">1er Nivel</a></li>
+                                    <li class=""><a href="#">2do Nivel</a></li>
+                                    <li class=""><a href="#">3er Nivel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="accordion-item bg-body-secondary rounded-4 overflow-hidden mb-2"
+                    >
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button fw-bold collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                            >
+                                Educación Primaria
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <ul class="m-0">
+                                    <li class=""><a href="#">1er Grado</a></li>
+                                    <li class=""><a href="#">2do Grado</a></li>
+                                    <li class=""><a href="#">3er Grado</a></li>
+                                    <li class=""><a href="#">4to Grado</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="accordion-item bg-body-secondary rounded-4 overflow-hidden"
+                    >
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button fw-bold collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                            >
+                                Educación Media
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <ul class="m-0">
+                                    <li class=""><a href="#">5to Grado</a></li>
+                                    <li class=""><a href="#">6to Grado</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-recomendados">
+            <div class="container py-5">
+                <h2 class="text-white comic-neue-bold text-center m-0 h1">
+                    Recomendados
+                </h2>
+                <hr
+                    class="m-0 border-3 border-white rounded-pill opacity-100 w-15 mx-auto"
+                />
+                <p
+                    class="text-white fs-5 text-center mt-3"
+                    style="--bs-text-opacity: 0.5"
+                >
+                    Artículos destacados de
+                    <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm btn-outline-light fw-medium fs-5"
+                        style="
+                            --bs-btn-border-color: rgba(255, 255, 255, 0.5);
+                            --bs-border-width: 1px;
+                            --bs-btn-color: rgba(255, 255, 255, 0.5);
+                        "
+                        >nuestro blog.</a
+                    >
+                </p>
+                <div class="row px-5 g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div
+                            class="card carousel__sombra rounded-4 overflow-hidden"
+                        >
+                            <img
+                                src="./../assets/Imagen1.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-semibold">
+                                    Titulo 1
+                                </h5>
+                                <p class="card-text fs-8">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <a
+                                    href="#"
+                                    class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                    >Leer más</a
+                                >
+                            </div>
+                            <div class="card-footer bg-white">
+                                <div
+                                    class="d-flex justify-content-between"
+                                    style="font-size: 0.75rem"
+                                >
+                                    <span>Admin</span>
+                                    <span>Julio 28, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div
+                            class="card carousel__sombra rounded-4 overflow-hidden"
+                        >
+                            <img
+                                src="./../assets/Imagen1.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-semibold">
+                                    Titulo 1
+                                </h5>
+                                <p class="card-text fs-8">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <a
+                                    href="#"
+                                    class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                    >Leer más</a
+                                >
+                            </div>
+                            <div class="card-footer bg-white">
+                                <div
+                                    class="d-flex justify-content-between"
+                                    style="font-size: 0.75rem"
+                                >
+                                    <span>Admin</span>
+                                    <span>Julio 28, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div
+                            class="card carousel__sombra rounded-4 overflow-hidden"
+                        >
+                            <img
+                                src="./../assets/Imagen1.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-semibold">
+                                    Titulo 1
+                                </h5>
+                                <p class="card-text fs-8">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
+                                </p>
+                                <a
+                                    href="#"
+                                    class="btn btn-sm btn-primary text-white fw-semibold rounded-pill"
+                                    >Leer más</a
+                                >
+                            </div>
+                            <div class="card-footer bg-white">
+                                <div
+                                    class="d-flex justify-content-between"
+                                    style="font-size: 0.75rem"
+                                >
+                                    <span>Admin</span>
+                                    <span>Julio 28, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="border-top border-2">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <div class="row align-items-center g-2">
+                            <div class="col-12 pe-6">
+                                <img
+                                    src="../assets/Logocolegio.png"
+                                    alt="Logo Colegio"
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <h5
+                                    class="comic-neue-bold fs-6 text-primary m-0"
+                                >
+                                    U.E. Colegio Anibal Rodríguez
+                                </h5>
+                                <h6 class="comic-neue-bold fs-6 text-primary">
+                                    Barquisimeto - Lara
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 order-3 order-lg-2">
+                        <h5 class="comic-neue-bold text-primary">
+                            Contáctanos
+                        </h5>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-location-dot"></i>
+                            Cota 905, Urb. Obrera Turiamo, Barrio Buenos Aires,
+                            Parroquia Santa Rosalía, Municipio Libertador de
+                            Caracas, Districto Capital
+                        </p>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-phone"></i> +58 412 551 4415
+                        </p>
+                        <p
+                            class="fw-semibold text-body-secondary"
+                            style="font-size: 0.6875rem"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+                            correo@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-2 order-4 order-lg-3">
+                        <h5 class="comic-neue-bold text-primary">Enlaces</h5>
+                        <ul class="nav flex-column" style="font-size: 0.75rem">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                >
+                                    <i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Colegio</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Publicaciones</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Contáctanos</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-2 order-5 order-lg-4">
+                        <h5 class="comic-neue-bold text-primary">
+                            Información de interés
+                        </h5>
+                        <ul class="nav flex-column" style="font-size: 0.75rem">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Pastoral educativa</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                >
+                                    <i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Bancos</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    ><i
+                                        class="fa-solid fa-chevron-right text-primary"
+                                    ></i>
+                                    Clubes Escolares</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 order-2 order-lg-5">
+                        <h5 class="comic-neue-bold text-primary">
+                            Conecta con nosotros
+                        </h5>
+                        <div class="social">
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="social__link social__link-primary"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-tertiary">
+                <div class="container py-3">
+                    <p class="mx-5 fs-8 m-0 text-center text-white">
+                        Copyright ©2024 Todos los derechos reservados, diseñado
+                        por
+                        <a
+                            href="https://asistescolar.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="fw-bold link-light"
+                            >AsistEscolar.com</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <button class="btnScrollTop" title="Go to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.2/dist/sweetalert2.all.min.js"></script>
+        <script
+            type="text/javascript"
+            src="../js/bootstrap.bundle.min.js"
+        ></script>
+        <script type="text/javascript" src="../js/app.min.js"></script>
+    </body>
+</html>
