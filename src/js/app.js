@@ -220,7 +220,7 @@
     };
 
     const GliderCreator = () => {
-        const gliderConfig = {
+        const gliderConfig3Slides = {
             slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [
@@ -234,6 +234,11 @@
             ],
         };
 
+        const gliderConfig1Slides = {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        };
+
         document.querySelectorAll('.carousel__items').forEach((carousel) => {
             const prevButton =
                 carousel.parentElement.querySelector('.carousel__anterior');
@@ -241,7 +246,22 @@
                 carousel.parentElement.querySelector('.carousel__siguiente');
 
             new Glider(carousel, {
-                ...gliderConfig,
+                ...gliderConfig3Slides,
+                arrows: {
+                    prev: prevButton,
+                    next: nextButton,
+                },
+            });
+        });
+
+        document.querySelectorAll('.carousel__OneSlide').forEach((carousel) => {
+            const prevButton =
+                carousel.parentElement.querySelector('.carousel__anterior');
+            const nextButton =
+                carousel.parentElement.querySelector('.carousel__siguiente');
+
+            new Glider(carousel, {
+                ...gliderConfig1Slides,
                 arrows: {
                     prev: prevButton,
                     next: nextButton,
