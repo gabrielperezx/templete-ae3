@@ -125,18 +125,26 @@
         }
     }
     &__circle {
-        padding: 1.5rem;
         margin: 2rem;
-        border: 0.5rem solid $primary;
         border-radius: 50rem;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: ease 0.3s all;
-        &:hover {
-            padding: 1rem;
-            .carousel__overlay {
-                opacity: 0.5;
+        position: relative;
+        .carousel__border {
+            --cr-borderColor: #fff;
+            --cr-borderColorHover: #2458a2;
+            position: absolute;
+            border: 4px solid var(--cr-borderColor);
+            border-radius: 50rem;
+            width: 90%;
+            height: 90%;
+            transition: ease 0.3s all;
+            &:hover {
+                border: 4px solid var(--cr-borderColorHover);
+                width: 100%;
+                height: 100%;
             }
         }
     }
