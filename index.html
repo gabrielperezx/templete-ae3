@@ -22,7 +22,7 @@
         <title>Inicio</title>
     </head>
     <body id="VentanaInicio">
-        <div id="mainNavbar" class="container py-3 fixed-top top-0 visually-hidden">
+        <div id="mainNavbar" class="container py-3 fixed-top visually-hidden">
             <nav class="navbar navbar-expand-lg bg-white rounded-4 navbar-link-primary">
                 <div class="container-fluid">
                     <a class="navbar-brand me-0" href="#">
@@ -38,7 +38,7 @@
                         </span>
                     </a>
                     <button
-                        class="navbar-toggler mx-auto mx-md-0"
+                        class="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"
@@ -168,58 +168,70 @@
         </div>
 
         <header>
-            <div class="bg-primary justify-content-between d-flex px-5 py-2">
-                <div class="d-flex gap-3 align-items-center">
-                    <a
-                        class="link-light fs-6"
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a
-                        class="link-light fs-6"
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a
-                        class="link-light fs-6"
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="d-flex gap-3 align-items-center">
-                    <a
-                        href="tel:+582510000000"
-                        class="link-light text-decoration-none fs-7 fw-bold"
-                    >
-                        <i class="fa-solid fa-phone"></i>
-                        0251-000-0000
-                    </a>
-                    <a
-                        href="mailto:correo@gmail.com"
-                        class="link-light text-decoration-none fs-7 fw-bold"
-                    >
-                        <i class="fa-solid fa-envelope"></i>
-                        correo@gmail.com
-                    </a>
-                    <a
-                        href="https://maps.app.goo.gl/KzVnMbyNLmP8bCpu8"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-sm btn-light text-primary fw-bold rounded-pill"
-                    >
-                        <i class="fa-solid fa-location-dot"></i>
-                        Ubicación
-                    </a>
-                </div>
+            <div class="bg-primary px-5 py-2 d-flex flex-wrap justify-content-between">
+                <ul class="nav gap-3">
+                    <li class="nav-item">
+                        <a
+                            class="link-light fs-6 text-decoration-none"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="link-light fs-6 text-decoration-none"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="link-light fs-6 text-decoration-none"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav gap-3">
+                    <li class="nav-item">
+                        <a
+                            href="tel:+582510000000"
+                            class="link-light text-decoration-none fs-7 fw-bold col-12 col-lg-4"
+                        >
+                            <i class="fa-solid fa-phone"></i>
+                            0251-000-0000
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="mailto:correo@gmail.com"
+                            class="link-light text-decoration-none fs-7 fw-bold col-12 col-lg-4"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+                            correo@gmail.com
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="https://maps.app.goo.gl/KzVnMbyNLmP8bCpu8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-sm btn-light text-primary fw-bold rounded-pill"
+                        >
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ubicación
+                        </a>
+                    </li>
+                </ul>
             </div>
             <nav class="navbar navbar-expand-lg bg-white navbar-link-secondary">
                 <div class="container-fluid">
@@ -233,7 +245,7 @@
                     </span>
 
                     <button
-                        class="navbar-toggler mx-auto mx-md-0"
+                        class="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"
@@ -378,40 +390,10 @@
             style="--bg-image: url('./../assets/classroom+pic.jpg')"
         >
             <div class="bg-dark bg-opacity-50">
-                <div class="carousel">
+                <div class="carousel container">
                     <div class="carousel__contenedor">
                         <div class="carousel__OneSlide">
-                            <div class="px-8 py-7">
-                                <h1
-                                    class="comic-neue-bold text-center display-5 text-white text-center"
-                                >
-                                    Haz la educación de tus hijos especial
-                                </h1>
-                                <p class="fw-semibold text-white text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Tenetur vero ullam nam expedita voluptas iure
-                                    enim distinctio, officiis, aliquam facilis consectetur
-                                    nobis sint! Tenetur culpa iure totam nihil enim
-                                    distinctio!
-                                </p>
-                                <div class="d-flex justify-content-center">
-                                    <a
-                                        class="btn btn-primary"
-                                        style="
-                                            --bs-btn-padding-x: 3rem;
-                                            --bs-btn-font-weight: 700;
-                                            --bs-border-radius: var(
-                                                --bs-border-radius-pill
-                                            );
-                                        "
-                                        href="#"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        >Solicita Cupo</a
-                                    >
-                                </div>
-                            </div>
-                            <div class="px-8 py-7">
+                            <div class="px-lg-8 py-lg-7 p-5">
                                 <h1
                                     class="comic-neue-bold text-center display-5 text-white text-center"
                                 >
@@ -539,7 +521,7 @@
                                     </p>
                                 </div>
                                 <div class="card-footer bg-white">
-                                    <div class="row">
+                                    <div class="row g-1">
                                         <div class="col-3">
                                             <div
                                                 class="responsive-circle bg-primary text-white"
@@ -837,17 +819,17 @@
                     class="border border-primary border-3 opacity-100 w-15 rounded-pill m-0 mx-auto"
                 />
             </div>
-            <div class="row g-5 mb-4">
-                <div class="col-12 col-lg-6">
+            <div class="row g-lg-5 mb-4">
+                <div class="col-12 col-md-6">
                     <div class="card rounded-4 overflow-hidden py-2 px-4 mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-lg-3">
+                            <div class="col-4">
                                 <div class="responsive-circle bg-primary text-white">
                                     <span class="fs-2 fw-bold lh-1">21</span>
                                     <span class="fs-5 lh-1">Agosto</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-9">
+                            <div class="col-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">
                                         II Convocatoria a Asamblea Escolar Extraordinaria
@@ -861,13 +843,13 @@
                     </div>
                     <div class="card rounded-4 overflow-hidden py-2 px-4 mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-lg-3">
+                            <div class="col-4">
                                 <div class="responsive-circle bg-primary text-white">
                                     <span class="fs-2 fw-bold lh-1">21</span>
                                     <span class="fs-5 lh-1">Agosto</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-9">
+                            <div class="col-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">
                                         II Convocatoria a Asamblea Escolar Extraordinaria
@@ -879,15 +861,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card rounded-4 overflow-hidden py-2 px-4">
+                    <div class="card rounded-4 overflow-hidden py-2 px-4 mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-lg-3">
+                            <div class="col-4">
                                 <div class="responsive-circle bg-primary text-white">
                                     <span class="fs-2 fw-bold lh-1">21</span>
                                     <span class="fs-5 lh-1">Agosto</span>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-9">
+                            <div class="col-8">
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">
                                         II Convocatoria a Asamblea Escolar Extraordinaria
@@ -901,7 +883,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-md-6">
                     <div class="card carousel__sombra rounded-4 overflow-hidden">
                         <img
                             src="./src/assets/Imagen1.jpg"
@@ -951,15 +933,15 @@
                 />
             </div>
             <div class="carousel mb-3">
-                <div class="row">
-                    <div class="col-6">
+                <div class="row g-2">
+                    <div class="col-12 col-lg-6">
                         <img
                             src="./src/assets/Imagen1.jpg"
                             class="img-fluid img-thumbnail rounded-4"
                             alt=""
                         />
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="row g-3">
                             <div class="col-6">
                                 <img
@@ -1125,20 +1107,26 @@
 
         <div class="bg-parallax" style="--bg-image: url('./../assets/classroom+pic.jpg')">
             <div class="bg-dark bg-opacity-50">
-                <div class="container py-5">
+                <div class="container py-6">
                     <div class="row">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 mb-6 mb-lg-0">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60717.3267937924!2d-67.1874136783203!3d-17.9865085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e2b0c2e1310c7f%3A0x6c0d337032fbb904!2sColegio%20SkibidiMewing!5e0!3m2!1ses!2sve!4v1735065829510!5m2!1ses!2sve"
                                 style="border: 0"
                                 class="img-fluid-container"
-                                allowfullscreen=""
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <div class="bg-white rounded-4 px-6 py-4">
+                            <div
+                                class="bg-white rounded-4 px-lg-6 py-5 px-5 position-relative"
+                            >
+                                <div class="contact">
+                                    <span class="contact__icon">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                    </span>
+                                </div>
                                 <div class="d-flex flex-column align-items-center mb-4">
                                     <h2 class="display-6 comic-neue-bold m-0">
                                         Contáctanos

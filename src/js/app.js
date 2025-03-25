@@ -48,7 +48,7 @@
         const navbar = document.getElementById('mainNavbar');
         if (document.body.contains(navbar)) {
             window.addEventListener('scroll', () => {
-                if (window.scrollY > 100) {
+                if (window.scrollY > 120) {
                     navbar.classList.remove('visually-hidden');
                 } else {
                     navbar.classList.add('visually-hidden');
