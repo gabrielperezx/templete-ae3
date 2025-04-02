@@ -43,8 +43,13 @@
     &__contenedor {
         position: relative;
         .carousel__items {
+            &.blog-items {
+                .glider-slide {
+                    padding: 1rem;
+                }
+            }
             .glider-slide {
-                padding: 1rem;
+                padding: 2rem;
             }
             .card {
                 transition: ease all 0.5s;
@@ -86,13 +91,11 @@
     }
     &__anterior {
         left: 0;
-        &.btn-anterior {
-            left: -4rem;
-        }
+
         &.btn-anterior-top {
             top: -1rem;
             left: auto;
-            right: 3rem;
+            right: 4rem;
             width: 2rem;
             height: 2rem;
             font-size: 1rem;
@@ -100,19 +103,17 @@
     }
     &__siguiente {
         right: 0;
-        &.btn-siguiente {
-            right: -4rem;
-        }
+
         &.btn-siguiente-top {
             top: -1rem;
-            right: 0;
+            right: 1rem;
             width: 2rem;
             height: 2rem;
             font-size: 1rem;
         }
     }
     &__circle {
-        margin: 2rem;
+        // margin: 3rem;
         border-radius: 50rem;
         display: flex;
         align-items: center;
@@ -498,12 +499,14 @@
 }
 
 .responsive-circle {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 1rem;
     aspect-ratio: 1;
+    padding: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -519,15 +522,9 @@
     .carousel {
         &__anterior {
             left: -1.5rem;
-            &.btn-anterior {
-                left: 0;
-            }
         }
         &__siguiente {
             right: -1.5rem;
-            &.btn-siguiente {
-                right: 0;
-            }
         }
         &__anterior,
         &__siguiente {
