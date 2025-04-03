@@ -98,6 +98,8 @@
         const gliderConfig1Slides = {
             slidesToShow: 1,
             slidesToScroll: 1,
+            scrollLock: true,
+            dots: '.carousel__indicadores',
         };
 
         document.querySelectorAll('.carousel__items').forEach((carousel) => {
@@ -115,7 +117,7 @@
             });
         });
 
-        document.querySelectorAll('.carousel__OneSlide').forEach((carousel) => {
+        document.querySelectorAll('.carousel__lista-1').forEach((carousel) => {
             const prevButton =
                 carousel.parentElement.querySelector('.carousel__anterior');
             const nextButton =

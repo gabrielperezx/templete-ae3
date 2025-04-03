@@ -40,6 +40,20 @@
 }
 
 .carousel {
+    &.hero-carousel {
+        position: relative;
+        .carousel__indicadores {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .carousel__anterior {
+            left: 2rem;
+        }
+        .carousel__siguiente {
+            right: 2rem;
+        }
+    }
     &__contenedor {
         position: relative;
         .carousel__items {
@@ -520,15 +534,9 @@
         }
     }
     .carousel {
-        &__anterior {
-            left: -1.5rem;
-        }
-        &__siguiente {
-            right: -1.5rem;
-        }
         &__anterior,
         &__siguiente {
-            opacity: 1;
+            display: none;
         }
         &__sombra {
             &-hover {
@@ -539,9 +547,5 @@
 
     .bg-image {
         background-image: var(--bg-image-v);
-    }
-
-    .carousel {
-        padding: 0 2rem;
     }
 }

@@ -25,35 +25,30 @@
         <div id="mainNavbar" class="container py-3 fixed-top visually-hidden">
             <nav class="navbar navbar-expand-lg bg-white rounded-4 navbar-link-primary">
                 <div class="container-fluid">
-                    <div class="d-flex w-100 justify-content-between align-items-center">
-                        <div>
-                            <img
-                                src="./src/assets/Logocolegio.png"
-                                alt="Logo Colegio"
-                                width="30"
-                                height="30"
-                            />
-                        </div>
-                        <div class="d-flex">
-                            <p class="fw-bold text-primary text-center d-lg-none m-0">
-                                U.E. Colegio Anibal Rodríguez
-                            </p>
-                        </div>
-
-                        <div>
-                            <button
-                                class="navbar-toggler w-100"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavDropdown"
-                                aria-controls="navbarNavDropdown"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span class="navbar-toggler-icon img-fluid"></span>
-                            </button>
-                        </div>
+                    <div class="navbar-brand">
+                        <img
+                            src="./src/assets/Logocolegio.png"
+                            alt="Logo Colegio"
+                            width="30"
+                            height="30"
+                        />
                     </div>
+
+                    <p class="fw-bold text-primary text-center d-lg-none m-0">
+                        U.E. Colegio Anibal Rodríguez
+                    </p>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon img-fluid"></span>
+                    </button>
                     <div
                         class="collapse navbar-collapse justify-content-end"
                         id="navbarNavDropdown"
@@ -285,6 +280,10 @@
                     />
                 </span>
 
+                <p class="fw-bold text-primary text-center d-lg-none m-0">
+                    U.E. Colegio Anibal Rodríguez
+                </p>
+
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -473,67 +472,64 @@
             </div>
         </nav>
 
-        <div
-            class="bg-parallax mb-5"
-            style="--bg-image: url('./../assets/classroom+pic.jpg')"
-        >
-            <div class="bg-dark bg-opacity-50">
-                <div class="carousel container">
-                    <div class="carousel__contenedor">
-                        <div class="carousel__OneSlide">
-                            <div class="px-lg-8 py-lg-7 p-5">
-                                <h1
-                                    class="fw-bold text-center display-6 text-white text-center"
-                                >
-                                    Haz la educación de tus hijos especial
-                                </h1>
-                                <p class="fw-semibold text-white text-center">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Tenetur vero ullam nam expedita voluptas iure
-                                    enim distinctio, officiis, aliquam facilis consectetur
-                                    nobis sint! Tenetur culpa iure totam nihil enim
-                                    distinctio!
-                                </p>
-                                <div class="d-flex justify-content-center">
-                                    <a
-                                        class="btn btn-primary"
-                                        style="
-                                            --bs-btn-padding-x: 3rem;
-                                            --bs-btn-padding-y: 1rem;
-                                            --bs-btn-font-weight: 700;
-                                            --bs-border-radius: var(
-                                                --bs-border-radius-pill
-                                            );
-                                        "
-                                        href="./src/pages/conocenos.html"
-                                        >Solicita Cupo</a
+        <div class="carousel hero-carousel">
+            <div class="carousel__contenedor">
+                <div class="carousel__lista-1">
+                    <div class="carousel__elemento">
+                        <div
+                            class="bg-parallax"
+                            style="--bg-image: url('./../assets/Imagen1.jpg')"
+                        >
+                            <div class="bg-dark bg-opacity-50">
+                                <div class="container py-5 p-lg-7">
+                                    <h1
+                                        class="fw-bold text-center display-6 text-white text-center"
                                     >
+                                        Haz la educación de tus hijos especial
+                                    </h1>
+                                    <p class="fw-semibold text-white text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Tenetur vero ullam nam expedita voluptas
+                                        iure enim distinctio, officiis, aliquam facilis
+                                        consectetur nobis sint! Tenetur culpa iure totam
+                                        nihil enim distinctio!
+                                    </p>
+                                    <div class="d-flex justify-content-center">
+                                        <a
+                                            class="btn btn-primary"
+                                            style="
+                                                --bs-btn-padding-x: 3rem;
+                                                --bs-btn-padding-y: 1rem;
+                                                --bs-btn-font-weight: 700;
+                                                --bs-border-radius: var(
+                                                    --bs-border-radius-pill
+                                                );
+                                            "
+                                            href="./src/pages/conocenos.html"
+                                            >Solicita Cupo</a
+                                        >
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <button
-                            aria-label="Anterior"
-                            class="carousel__anterior"
-                            style="
-                                --bs-primary: rgba(255, 255, 255, 0.2);
-                                --bs-white: #fff;
-                            "
-                        >
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </button>
-                        <button
-                            aria-label="Siguiente"
-                            class="carousel__siguiente"
-                            style="
-                                --bs-primary: rgba(255, 255, 255, 0.2);
-                                --bs-white: #fff;
-                            "
-                        >
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </button>
                     </div>
                 </div>
+                <button
+                    aria-label="Anterior"
+                    class="carousel__anterior"
+                    style="--bs-primary: rgba(255, 255, 255, 0.2); --bs-white: #fff"
+                >
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button
+                    aria-label="Siguiente"
+                    class="carousel__siguiente"
+                    style="--bs-primary: rgba(255, 255, 255, 0.2); --bs-white: #fff"
+                >
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
             </div>
+            <div role="tablist" class="carousel__indicadores"></div>
         </div>
 
         <div class="container mb-5">
