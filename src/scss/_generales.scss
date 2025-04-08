@@ -42,9 +42,12 @@
 .carousel {
     &.hero-carousel {
         position: relative;
+        .carousel__contenedor {
+            position: static;
+        }
         .carousel__indicadores {
             position: absolute;
-            bottom: 0;
+            bottom: 1rem;
             width: 100%;
         }
         .carousel__anterior {
@@ -58,6 +61,11 @@
         position: relative;
         .carousel__items {
             &.blog-items {
+                .glider-slide {
+                    padding: 1rem;
+                }
+            }
+            &.gallery-items {
                 .glider-slide {
                     padding: 1rem;
                 }

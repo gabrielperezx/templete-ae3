@@ -168,9 +168,9 @@
         if (document.body.contains(navbar)) {
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 120) {
-                    navbar.classList.remove('visually-hidden');
+                    navbar.classList.remove('d-none');
                 } else {
-                    navbar.classList.add('visually-hidden');
+                    navbar.classList.add('d-none');
                 }
             });
         }
